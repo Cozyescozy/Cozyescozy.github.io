@@ -3,6 +3,31 @@
   
     
     <entry>
+      <title>tag-test</title>
+      <link href="/2018/09/28/tag/"/>
+      <url>/2018/09/28/tag/</url>
+      
+        <content type="html"><![CDATA[<hr><h2 id="This-is-a-Tag-amp-Category-test"><a href="#This-is-a-Tag-amp-Category-test" class="headerlink" title="This is a Tag &amp; Category test"></a>This is a Tag &amp; Category test</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> test </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> tag </tag>
+            
+            <tag> first </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2018/09/28/hello-world/"/>
       <url>/2018/09/28/hello-world/</url>
