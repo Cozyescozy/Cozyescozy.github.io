@@ -3,6 +3,17 @@
   
     
     <entry>
+      <title>MathJax LaTex Test</title>
+      <link href="/2018/09/29/MathJax-Test/"/>
+      <url>/2018/09/29/MathJax-Test/</url>
+      
+        <content type="html"><![CDATA[<p>$$<br>\begin{eqnarray}<br>\nabla\cdot\vec{E} &amp;=&amp; \frac{\rho}{\epsilon_0} \\<br>\nabla\cdot\vec{B} &amp;=&amp; 0 \\<br>\nabla\times\vec{E} &amp;=&amp; -\frac{\partial B}{\partial t} \\<br>\nabla\times\vec{B} &amp;=&amp; \mu_0\left(\vec{J}+\epsilon_0\frac{\partial E}{\partial t} \right)<br>\end{eqnarray}<br>$$<br>$$\begin{matrix}<br>1&amp;0&amp;0\\<br>0&amp;1&amp;0\\<br>0&amp;0&amp;1\\<br>\end{matrix}$$</p><p>$\beta$<br>$\overbrace{a+\underbrace{b+c}_{1.0}+d}^{2.0}$</p><p>$$\begin{bmatrix}<br>{a_{11}}&amp;{a_{12}}&amp;{\cdots}&amp;{a_{1n}}\\<br>{a_{21}}&amp;{a_{22}}&amp;{\cdots}&amp;{a_{2n}}\\<br>{\vdots}&amp;{\vdots}&amp;{\ddots}&amp;{\vdots}\\<br>{a_{m1}}&amp;{a_{m2}}&amp;{\cdots}&amp;{a_{mn}}\\<br>\end{bmatrix}$$</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    <entry>
       <title>怎样过完自己这一生？</title>
       <link href="/2018/09/28/%E6%80%8E%E6%A0%B7%E8%BF%87%E5%AE%8C%E8%BF%99%E4%B8%80%E7%94%9F%EF%BC%9F/"/>
       <url>/2018/09/28/%E6%80%8E%E6%A0%B7%E8%BF%87%E5%AE%8C%E8%BF%99%E4%B8%80%E7%94%9F%EF%BC%9F/</url>
