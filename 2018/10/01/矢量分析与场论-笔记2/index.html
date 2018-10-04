@@ -114,7 +114,7 @@
 <meta property="og:site_name" content="CozyBlog">
 <meta property="og:description" content="一、场(Field) 场的概念 如果在全部空间或部分空间里的每个点，都对应着某个物理量的一个确定值，就说在空间里确定了该物理量的一个场  数量场的等值面 一个数量场可以用一个数性函数来表示。分布于数量场中各点处的数量 u 是场中的点M的函数$u=u(M)$，当取定直角坐标$Oxzy$之后它就变成了点$M(x,y,z)$的坐标的函数了，即$$u=u(x,y,z)$$ 等值面即场中使函数$u$取值相">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-10-02T15:30:41.098Z">
+<meta property="og:updated_time" content="2018-10-04T08:47:50.275Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="矢量分析与场论-笔记2">
 <meta name="twitter:description" content="一、场(Field) 场的概念 如果在全部空间或部分空间里的每个点，都对应着某个物理量的一个确定值，就说在空间里确定了该物理量的一个场  数量场的等值面 一个数量场可以用一个数性函数来表示。分布于数量场中各点处的数量 u 是场中的点M的函数$u=u(M)$，当取定直角坐标$Oxzy$之后它就变成了点$M(x,y,z)$的坐标的函数了，即$$u=u(x,y,z)$$ 等值面即场中使函数$u$取值相">
@@ -393,7 +393,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2018-10-02 23:30:41" itemprop="dateModified" datetime="2018-10-02T23:30:41+08:00">2018-10-02</time>
+                <time title="修改时间：2018-10-04 16:47:50" itemprop="dateModified" datetime="2018-10-04T16:47:50+08:00">2018-10-04</time>
               
             
           </span>
@@ -454,7 +454,20 @@
 <li>梯度的运算规则与导数运算规则类似</li>
 </ul>
 <h1 id="三、通量与散度"><a href="#三、通量与散度" class="headerlink" title="三、通量与散度"></a>三、通量与散度</h1><h2 id="通量-Flux"><a href="#通量-Flux" class="headerlink" title="通量(Flux)"></a>通量(Flux)</h2><ul>
-<li>f</li>
+<li>通量：本质上是一类曲面积分，对矢量场$A(M)$,沿其中有向曲面$S$某一侧的曲面积分$$\Phi=\iint_S \vec A \cdot \text d \vec S$$称为矢量场$A(M)$向积分所沿一侧穿过曲面$S$的<strong>通量</strong></li>
+<li>有向面元$$\text d \vec S= \vec {n}^°\text d S=\text d y \text d z \vec i+\text d x \text d z \vec j+\text d x \text d y \vec k$$</li>
+</ul>
+<h2 id="散度-Divergence"><a href="#散度-Divergence" class="headerlink" title="散度(Divergence)"></a>散度(Divergence)</h2><ul>
+<li>散度：$$\text {div} \vec A=\lim \limits_{\Delta \Omega \to M} \frac{\iint_{\Delta S} \vec A \cdot \text d \vec S}{\Delta V}$$<br>散度$\text{div} \vec A \quad (\nabla\cdot\vec A)$为一数量，表示场中一点处<strong>通量随体积的变化率</strong>，也就是该点处的<strong>源的强度</strong></li>
+<li><p>散度场：将矢量场中每一点处的散度与该点的坐标一一对应起来所得到的场就是<strong>散度场</strong></p>
+</li>
+<li><p>散度的计算：直角坐标下矢量场$\vec A=P(x,y,z) \vec i+Q(x,y,z)\vec j+R(x,y,z)\vec k$的散度为$$\text {div} \  \vec A=\frac{\partial P}{\partial x}+\frac{\partial Q}{\partial y}+\frac{\partial R}{\partial z}$$</p>
+</li>
+</ul>
+<h1 id="四、环量与旋度"><a href="#四、环量与旋度" class="headerlink" title="四、环量与旋度"></a>四、环量与旋度</h1><h2 id="环量-Circulation"><a href="#环量-Circulation" class="headerlink" title="环量(Circulation)"></a>环量(Circulation)</h2><ul>
+<li>矢量场$A(M)$中，沿场中某一封闭的有向曲线$l$的曲线积分$$\varGamma = \oint_l \vec A \cdot \text d \vec l$$</li>
+<li>有向线元$\text d \vec l=\text d x \vec i+\text d y \vec j+\text d z \vec k$</li>
+<li>$$\varGamma = \oint_l \vec A \cdot \text d \vec l= \oint_l P \text d x+Q \text d y+R \text d z$$</li>
 </ul>
 
       
@@ -653,7 +666,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#一、场-Field"><span class="nav-number">1.</span> <span class="nav-text">一、场(Field)</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#场的概念"><span class="nav-number">1.1.</span> <span class="nav-text">场的概念</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#数量场的等值面"><span class="nav-number">1.2.</span> <span class="nav-text">数量场的等值面</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#矢量场与矢量线"><span class="nav-number">1.3.</span> <span class="nav-text">矢量场与矢量线</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#二、数量场的方向导数和梯度"><span class="nav-number">2.</span> <span class="nav-text">二、数量场的方向导数和梯度</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#方向导数-Directional-Derivative"><span class="nav-number">2.1.</span> <span class="nav-text">方向导数(Directional Derivative)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#梯度-Gradient"><span class="nav-number">2.2.</span> <span class="nav-text">梯度(Gradient)</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#三、通量与散度"><span class="nav-number">3.</span> <span class="nav-text">三、通量与散度</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#通量-Flux"><span class="nav-number">3.1.</span> <span class="nav-text">通量(Flux)</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#一、场-Field"><span class="nav-number">1.</span> <span class="nav-text">一、场(Field)</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#场的概念"><span class="nav-number">1.1.</span> <span class="nav-text">场的概念</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#数量场的等值面"><span class="nav-number">1.2.</span> <span class="nav-text">数量场的等值面</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#矢量场与矢量线"><span class="nav-number">1.3.</span> <span class="nav-text">矢量场与矢量线</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#二、数量场的方向导数和梯度"><span class="nav-number">2.</span> <span class="nav-text">二、数量场的方向导数和梯度</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#方向导数-Directional-Derivative"><span class="nav-number">2.1.</span> <span class="nav-text">方向导数(Directional Derivative)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#梯度-Gradient"><span class="nav-number">2.2.</span> <span class="nav-text">梯度(Gradient)</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#三、通量与散度"><span class="nav-number">3.</span> <span class="nav-text">三、通量与散度</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#通量-Flux"><span class="nav-number">3.1.</span> <span class="nav-text">通量(Flux)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#散度-Divergence"><span class="nav-number">3.2.</span> <span class="nav-text">散度(Divergence)</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#四、环量与旋度"><span class="nav-number">4.</span> <span class="nav-text">四、环量与旋度</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#环量-Circulation"><span class="nav-number">4.1.</span> <span class="nav-text">环量(Circulation)</span></a></li></ol></li></ol></div>
             
 
           </div>
